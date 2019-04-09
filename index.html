@@ -63,7 +63,7 @@ svg.append("rect")
     .attr("height", height)
     .call(zoom);
 
-d3.json("https://bl.ocks.org/mbostock/raw/2374239/3b060b473adf27248b855d3a8f7d6d7b4b518471/us.json", function(error, us) {
+d3.json("./us.json", function(error, us) {
   if (error) throw error;
   // console.log(us)
 
